@@ -1,0 +1,41 @@
+body {
+    height: 100%;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+fieldset {
+    background-color: rgb(238, 217, 159);
+}
+
+
+label {
+    font-size: 19px;
+}
+
+input {
+    border: 3px solid;
+}
+
+button {
+    background-color: rgb(109, 109, 222);
+    color: white;
+    padding: 5px 16px;
+}
+
+.parent {
+    background-color: black;
+    display: grid;
+    place-items: center;
+
+    
+    color: white;
+    height: 100px;
+  
+}
